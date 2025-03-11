@@ -1,9 +1,9 @@
 # pohsoltova 
 
-input("napis neco")
+uzivatel = input("napis neco")
 # priklad nacteni od uzivatele
 
-cislo = "meow"
+cislo = 5
 int(cislo)
 # priklad pretypovani na integer
 
@@ -13,3 +13,15 @@ elif cislo <5:
     print("cislo je mensi nez 5")
 else:
     print("neni cislo")
+# podminky
+
+print("meow mnau nya meow")
+
+# priklad vypsani neceho
+
+cislo > 5 and cislo < 10
+# logicky operator and 
+
+# git add *
+# git commit -m 
+# git push
