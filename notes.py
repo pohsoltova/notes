@@ -29,3 +29,7 @@ cislo > 5 and cislo < 10
 # git clone url adresa 
 # cd
 # git pull 
+
+for i in range(1,10):
+    print(i)
+    
