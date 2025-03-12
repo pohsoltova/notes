@@ -25,3 +25,7 @@ cislo > 5 and cislo < 10
 # git add *
 # git commit -m 
 # git push
+
+# git clone url adresa 
+# cd
+# git pull 
