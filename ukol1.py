@@ -16,3 +16,18 @@ print(f"{cislo:.3f}")
 hodnota = 155
 print(f"{hodnota:b}")
 print(f"{hodnota:x}")
+
+jmeno = input("zadej jmeno")
+vek = input("zadej vek")
+print(f"ahoj jmenuju se {jmeno} a je mi {vek}")
+
+cislo1 = input("zadej desetinne cislo")
+cislo2 = input("zadej desetinne cislo")
+soucet = int(cislo1) + int(cislo2)
+print(f"{soucet:.2f}")
+podil = int(cislo1) / int(cislo2)
+print(f"{podil:.2f}")
+soucin = int(cislo1) + int(cislo2)
+print(f"{soucin:.2f}")
+rozdil = int(cislo1) - int(cislo2)
+print(f"{rozdil:.2f}")
