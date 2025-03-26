@@ -14,6 +14,8 @@
 ### kod
 ```python
 print(ahoj)
-input()
+word = "cat"
+print(word)
+
 ```
-kod realne jen vypise ahoj
+kod realne jen vypise ahoj a urceny slovo v promenny word
