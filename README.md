@@ -14,5 +14,6 @@
 ### kod
 ```python
 print(ahoj)
+input()
 ```
 kod realne jen vypise ahoj
