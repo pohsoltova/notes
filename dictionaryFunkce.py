@@ -1,13 +1,24 @@
+
 def vytvor_utulek():
-    zvirata = {
-        "míca":("druh":"kocka", "barva_očí":"zelena")
-        "betty":("druh":"pes", "barva_očí":"zelená")
-}
-print(zvirata)
-idk dodelam doma
+    return {}
 
-def pridej_zvire():
+# 2. Přidání zvířete do útulku
+def pridej_zvire(utulek, jmeno, druh, vek):
+    utulek[jmeno] = {"druh": druh, "vek": vek}
 
-def vypis_zvirata():
+# 3. Výpis všech zvířat
+def vypis_zvirata(utulek):
+    for jmeno, info in utulek.items():
+        print(f"{jmeno} je {info['druh']} a je mu {info['vek']} let.")
 
-????????
+
+# 5. Zavolání funkcí pro ověření
+if __name__ == "__main__":
+    utulek = vytvor_utulek()
+    pridej_zvire(utulek, "Míca", "kočka", 3)
+    pridej_zvire(utulek, "Baryk", "pes", 5)
+    pridej_zvire(utulek, "Kája", "králík", 2)
+
+    print("Všechna zvířata v útulku:")
+    vypis_zvirata(utulek)
+
